@@ -31,7 +31,7 @@ things that need to be fixed.
 The OpenRAM compiler has very few dependencies:
 + [Ngspice] 26 (or later) or HSpice I-2013.12-1 (or later) or CustomSim 2017 (or later) or [Xyce] 7.2 (or later)
 + Python 3.5 or higher
-+ Various Python packages (pip install -r requirements.txt)
++ Various Python packages (sudo pip install -r requirements.txt)
 
 If you want to perform DRC and LVS, you will need either:
 + Calibre (for [FreePDK45])
@@ -47,8 +47,8 @@ You must set two environment variables:
 For example add this to your .bashrc:
 
 ```
-  export OPENRAM_HOME="$HOME/openram/compiler"
-  export OPENRAM_TECH="$HOME/openram/technology"
+  export OPENRAM_HOME="$HOME/OpenRAM/compiler"
+  export OPENRAM_TECH="$HOME/OpenRAM/technology"
 ```
 
 You may also wish to add OPENRAM\_HOME to your PYTHONPATH:
